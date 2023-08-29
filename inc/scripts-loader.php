@@ -39,7 +39,9 @@ function add_scripts()
 		wp_enqueue_style('home', get_stylesheet_directory_uri() . '/assets/css/home/home.css', array(), null);
 		wp_enqueue_script('home', get_stylesheet_directory_uri() . '/page-templates/home/home.js', array(), null);
 	}
-
+	if ( is_page_template( 'page-templates/page_termos.php' ) ) {
+		wp_enqueue_style('termos', get_stylesheet_directory_uri() . '/assets/css/termos/termos.css', array(), null);
+	}
 	if ( is_single() ) {
 		wp_enqueue_style('single', get_stylesheet_directory_uri() . '/assets/css/single-post/single.css', array(), null);
 		wp_enqueue_script('single', get_stylesheet_directory_uri() . '/global-templates/single-post/single.js', array(), null);

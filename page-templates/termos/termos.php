@@ -1,0 +1,1 @@
+<?php get_template_part('/template-parts/hero/hero', null, array('titulo' => 'Nome do titulo', 'img' => 'link da imagem' )); ?>

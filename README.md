@@ -7,7 +7,7 @@ O Stage Base Theme tem como objetivo fornecer uma estrutura básica para um tema
 - Para cada novo projeto um novo repositório pode ser criado utilizando este como template. Lembre-se de adicionar todos os desenvolvedores do time como colaboradores no novo projeto. 
 - Rode o comando abaixo para processar todos os arquivos sass
 ```
-sass --watch novo-tema/assets/scss:novo-tema/assets/css novo-tema/global-templates:novo-tema/assets/css novo-tema/template-parts:novo-tema/assets/css novo-tema/page-templates:novo-tema/assets/css
+sass --watch assets/scss:assets/css global-templates:assets/css template-parts:assets/css page-templates:assets/css
 ```
 - Para cada novo template ou componente uma pasta contendo todos os arquivos relacionados (php, sass, js, etc) a ele deve ser criada
 
@@ -30,5 +30,5 @@ Localizado em `/assets/scss/_theme.scss` esse arquivo é importado em todas as p
 - No ambiente local deve-se instalar todas as dependências com o comando `npm install` dentro da pasta `/assets`
 - Rodar o comando abaixo para processar todas as mudanças do sass
 ```
-sass --watch novo-tema/assets/scss:novo-tema/assets/css novo-tema/global-templates:novo-tema/assets/css novo-tema/template-parts:novo-tema/assets/css novo-tema/page-templates:novo-tema/assets/css
+sass --watch assets/scss:assets/css global-templates:assets/css template-parts:assets/css page-templates:assets/css
 ```

@@ -1,6 +1,312 @@
 @import "../../assets/scss/theme";
-@import "../../template-parts/header/header";
-@import "../../assets/scss/buttons.scss";
-@import "../../template-parts/footer/footer";
+@import "../../assets/node_modules/bootstrap/scss/carousel";
+@import "../../assets/node_modules/bootstrap/scss/modal";
 
+@import "../../template-parts/header-home/header-home";
+@import "../../template-parts/hero/hero";
 @import "../../template-parts/posts-grid/posts-grid";
+
+#home-carousel-hero {
+    #hero {
+        height: 600px;
+
+        h1 {
+            color: $primary;
+        }
+    }
+
+    .carousel-indicators {
+        margin-bottom: 3rem;
+
+        button {
+            border: 1px solid #fff;
+
+            &:not(.active) {
+                background-color: transparent;
+            }
+        }
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .content-col {
+        color: #fff;
+    }
+
+    @include media-breakpoint-down(xl) {
+        #hero {
+            height: 500px;
+        }
+    }
+
+    @include media-breakpoint-up(xl) {
+        .content-col {
+            width: 60%;
+        }
+    }
+
+    @include media-breakpoint-up(xxl) {
+        #hero {
+            height: 700px;
+        }
+    }
+}
+
+#introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .section-title {
+        margin-bottom: 32px;
+    }
+
+    .cards-wrapper {
+        gap: 80px;
+        margin: 72px 0;
+
+        @include media-breakpoint-only(md) {
+            gap: 0;
+        }
+
+        .card {
+            @include media-breakpoint-down(md) {
+                text-align: center;
+            }
+
+            .img-wrapper {
+                width: 84px;
+                height: 84px;
+                background-color: $pink;
+                border-radius: 60px;
+                padding: 20px;
+
+                @include media-breakpoint-down(xl) {
+                    width: 96px;
+                    height: 96px;
+                }
+
+                @include media-breakpoint-down(md) {
+                    margin: auto;
+                }
+            }
+
+            .card-title {
+                margin: 16px 0;
+                font-size: 1.5rem;
+                line-height: 1.33em;
+                color: $primary;
+                font-weight: 500;
+            }
+
+            .card-text {
+                @include media-breakpoint-down(xl) {
+                    font-size: 1.125rem;
+                    line-height: 1.75em;
+                }
+            }
+
+            @include media-breakpoint-down(md) {
+                a {
+                    font-size: 1.125rem;
+                }
+            }
+        }
+    }
+
+    .btn {
+        font-size: 1.125rem;
+        font-weight: 700;
+        padding: 12px 24px;
+
+        @include button-variant($primary, $primary, #fff, $hover, $hover, #fff);
+    }
+
+    @include media-breakpoint-down(md) {
+        padding-left: 42px;
+        padding-right: 42px;
+    }
+}
+
+#video {
+    &>.d-flex {
+        gap: 120px;
+    }
+
+    .img-col {
+        .img-fluid {
+            width: 703px;
+            height: 396px;
+
+            @include media-breakpoint-down(md) {
+                height: 240px;
+            }
+        }
+
+        .position-absolute {
+            top: 50%;
+            left: 50%;
+            translate: -50% -50%;
+        }
+    }
+
+    .content-col {
+        color: #fff;
+
+        hr {
+            background-color: $primary;
+            height: 60px;
+            border: none;
+            margin: 0;
+        }
+
+        .title {
+            font-size: 4.5rem;
+            line-height: 4.5rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+
+            @include media-breakpoint-down(md) {
+                font-size: 5.375rem;
+            }
+        }
+
+        .content {
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+            font-weight: 500;
+            margin: 0;
+
+            @include media-breakpoint-down(md) {
+                font-size: 1.125rem;
+            }
+        }
+
+        @include media-breakpoint-down(md) {
+            align-items: center;
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        padding-left: 42px;
+        padding-right: 42px;
+    }
+}
+
+#beneficios {
+    padding: 220px 0;
+
+    h2 {
+        margin-bottom: 64px;
+    }
+
+    ul.nav {
+        button {
+
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            padding-bottom: 16px;
+
+            span {
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+                color: $secondary;
+            }
+
+            &.active {
+                border-bottom: 4px solid $primary;
+
+                span {
+                    color: $primary;
+                }
+            }
+        }
+    }
+
+    .tab-pane {
+        padding-top: 36px;
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 500;
+
+        @include media-breakpoint-down(xl) {
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        padding: 160px 42px;
+    }
+}
+
+#depoimento {
+    position: relative;
+    background-color: $pink;
+
+    .content {
+        z-index: 2;
+        position: relative;
+
+        .depoimento {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 48px;
+            color: $primary;
+            margin-bottom: 48px;
+
+            @include media-breakpoint-down(md) {
+                font-size: 32px;
+                line-height: 40px;
+            }
+        }
+
+        img {
+            border-radius: 50px;
+            width: 102px;
+            height: 102px;
+            border: 2px solid rgba(113, 0, 106, 0.20);
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .d-flex {
+            gap: 40px;
+
+            p {
+                color: $secondary;
+                line-height: 24px;
+                font-size: 18px;
+
+                b {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .position-absolute {
+        width: 90%;
+        bottom: -700px;
+        opacity: 0.1;
+
+        @include media-breakpoint-down(md) {
+            width: auto;
+            height: 100%;
+            bottom: 0;
+            left: 50%;
+            translate: -50% 0;
+            opacity: 0.04;
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        padding-right: 42px;
+        padding-left: 42px;
+    }
+}

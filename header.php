@@ -1,5 +1,5 @@
 <?php
-if ( ! defined('ABSPATH')) {
+if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly.
 }
 ?>
@@ -8,7 +8,9 @@ if ( ! defined('ABSPATH')) {
 <html <?php language_attributes(); ?>>
 
 <head>
-    <title> <?php bloginfo('name'); ?> </title>
+    <title>
+        <?php bloginfo('name'); ?>
+    </title>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="mobile-web-app-capable" content="yes">
@@ -21,4 +23,8 @@ if ( ! defined('ABSPATH')) {
 <body>
 <?php
 
-get_template_part('template-parts/header/header');
+if (is_front_page()) {
+    get_template_part('template-parts/header-home/header-home');
+} else {
+    get_template_part('template-parts/header/header');
+}

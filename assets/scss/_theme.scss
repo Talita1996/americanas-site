@@ -7,6 +7,53 @@
 // 2. Include any default variable overrides here
 
 // Variáveis customizadas
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: 10px,
+  2: 20px,
+  3: 30px,
+  4: 50px,
+  5: 100px,
+  6: 160px,
+  7: 192px,
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1200px,
+  xxl: 1500px
+);
+
+$gutters: (
+  0: 0,
+  1: 10px,
+  2: 20px,
+  3: 30px,
+  4: 50px,
+  5: 100px,
+);
+
+$primary: #ff0023;
+$secondary: #71006A;
+$pink: #FBD1F6;
+$hover: #C40023;
+
+$btn-border-radius: 0;
+
+$carousel-indicator-height: 15px; 
+$carousel-indicator-width: 15px;
+$carousel-indicator-opacity: 1;
+
+$gray-100: #F8F8F8;
+$gray-200: #CCCCCC;
+$gray-900: #535353;
+
+$font-family-base: 'Roboto';
+
+$navbar-dark-color: #fff;
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
@@ -43,6 +90,7 @@
 @import "../node_modules/bootstrap/scss/transitions";
 @import "../node_modules/bootstrap/scss/accordion";
 
+@import "../../template-parts/footer/footer";
 $header-height-desktop: 56.5px;
 $header-height-mobile: 56px;
 

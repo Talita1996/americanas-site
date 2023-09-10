@@ -1,0 +1,118 @@
+footer {
+    background-color: $gray-900;
+
+    .cols-wrap {
+        gap: 15px;
+        justify-content: space-between;
+
+        .footer-1 {
+            max-width: 300px;
+
+            img {
+                max-width: 100%;
+            }
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+            li {
+                margin: 5px 0;
+
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    transition: all .3s;
+
+                    &:hover {
+                        color: $primary;
+                    }
+                }
+            }
+        }
+
+        .collapse-icon {
+            &::after {
+                content: ' ❯';
+                display: inline-block;
+                font-size: 12px;
+                font-weight: bold;
+                margin-left: 20px;
+                transition: .4s ease-in-out;
+                border: none;
+                position: absolute;
+                top: 50%;
+                translate: 0 -50%;
+            }
+
+            &:hover>a:after {
+                transform: rotate(90deg);
+            }
+        }
+    }
+
+    .social-media {
+        img {
+            height: 20px;
+        }
+    }
+
+    a {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 17px;
+        line-height: 20px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .wp-container-5 {
+        gap: 10px;
+
+        &>div {
+            flex: none !important;
+        }
+
+        img {
+            height: 25px;
+            object-fit: contain;
+            cursor: pointer;
+        }
+
+        @include media-breakpoint-down(md) {
+            flex-wrap: nowrap !important;
+
+            .wp-block-column {
+                flex-basis: 32px !important;
+            }
+        }
+    }
+
+    .wp-container-11 {
+        gap: 10px;
+
+        &>div {
+            flex: none !important;
+        }
+
+        img {
+            height: 20px;
+            object-fit: contain;
+            cursor: pointer;
+        }
+    }
+
+    .wp-container-14 {
+        gap: 10px;
+    }
+
+    .copy-footer {
+        font-size: 13px;
+        line-height: 20px;
+        border-top: 2px solid white;
+        padding-top: 20px 0;
+    }
+}

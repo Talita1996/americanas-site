@@ -1,0 +1,54 @@
+.nav-link {
+    min-width: 400px;
+    height: 280px;
+    background: #E6E6E6;
+    padding: 72px 56px;
+    margin: 0 15px;
+
+    &.active {
+        color: $pink;
+
+        svg,
+        svg path {
+            fill: $pink;
+            stroke: $pink;
+        }
+
+        .tab-subtitle {
+            color: #fff;
+        }
+    }
+
+    &:not(.active):hover {
+        svg,
+        svg path {
+            
+            fill: $hover;
+            stroke: $hover;
+        }
+    }
+
+    svg {
+        height: 60px;
+        width: auto;
+    }
+
+    &>.d-flex {
+        gap: 16px; 
+    }
+
+    .tab-title {
+        font-size: 2rem;
+        line-height: 1.25em;
+        font-weight: 700;
+    }
+
+    .tab-subtitle {
+        color: $gray-900;
+    }
+}
+
+.slick-dots {
+    margin: 0;
+    bottom: 100px !important;
+}

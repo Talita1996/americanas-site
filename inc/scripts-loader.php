@@ -54,6 +54,14 @@ function add_scripts()
 	if (is_page_template('page-templates/page_termos.php')) {
 		wp_enqueue_style('termos', get_stylesheet_directory_uri() . '/assets/css/termos/termos.css', array(), null);
 	}
+	
+	if (is_page_template('page-templates/page_faq.php')) {
+		wp_enqueue_style('faq', get_stylesheet_directory_uri() . '/assets/css/faq/faq.css', array(), null);
+		wp_enqueue_script('faq', get_stylesheet_directory_uri() . '/page-templates/faq/faq.js', array( 'jquery' ), null);
+
+		wp_enqueue_style('slick', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css', array(), null);
+	}
+
 	if (is_single()) {
 		wp_enqueue_style('single', get_stylesheet_directory_uri() . '/assets/css/single-post/single.css', array(), null);
 		wp_enqueue_script('single', get_stylesheet_directory_uri() . '/global-templates/single-post/single.js', array(), null);
@@ -61,3 +69,18 @@ function add_scripts()
 
 }
 add_action('wp_head', 'add_scripts');
+
+function add_scripts_footer() {
+
+	if (is_page_template('page-templates/page_faq.php')) {
+		wp_enqueue_script('slick', '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js', array( 'jquery' ), null);
+	}
+	
+}
+add_action('wp_footer', 'add_scripts_footer');
+
+
+function add_cpt_function() {
+	require_once('class-faq.php');
+}
+add_action('init', 'add_cpt_function', 0);

@@ -17,6 +17,7 @@ if (!defined('ABSPATH')) {
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="description" content="<?php bloginfo('name'); ?> - <?php bloginfo('description'); ?>">
     <link rel="profile" href="http://gmpg.org/xfn/11">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
     <?php wp_head(); ?>
 </head>
 

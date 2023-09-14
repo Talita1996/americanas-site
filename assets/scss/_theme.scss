@@ -54,6 +54,10 @@ $gray-900: #535353;
 $font-family-base: 'Roboto';
 
 $navbar-dark-color: #fff;
+$nav-tabs-border-width: 0;
+$nav-tabs-link-active-bg: $hover;
+$nav-tabs-link-active-color: $pink;
+$nav-tabs-border-radius: 0;
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";

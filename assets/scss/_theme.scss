@@ -59,6 +59,15 @@ $nav-tabs-link-active-bg: $hover;
 $nav-tabs-link-active-color: $pink;
 $nav-tabs-border-radius: 0;
 
+$accordion-button-bg: #F1F1F1;
+$accordion-button-padding-y: 30px;
+$accordion-button-padding-x: 30px;
+//$accordion-icon-color: $primary;
+
+$accordion-button-icon: url('data:image/svg+xml,<svg width="16" height="28" viewBox="0 0 16 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.54865 0.666647L0 3.19307L10.9013 14.0007L0 24.8069L2.54865 27.3333L16 14.0007L2.54865 0.666647Z" fill="#FF0023"/></svg>');
+$accordion-button-active-icon: url('data:image/svg+xml,<svg width="16" height="28" viewBox="0 0 16 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.54865 0.666647L0 3.19307L10.9013 14.0007L0 24.8069L2.54865 27.3333L16 14.0007L2.54865 0.666647Z" fill="#FF0023"/></svg>');
+$accordion-icon-transform: rotate(-90deg);
+
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
 
@@ -95,7 +104,7 @@ $nav-tabs-border-radius: 0;
 @import "../node_modules/bootstrap/scss/accordion";
 
 @import "../../template-parts/footer/footer";
-$header-height-desktop: 56.5px;
+$header-height-desktop: 115px;
 $header-height-mobile: 56px;
 
 .wrap {

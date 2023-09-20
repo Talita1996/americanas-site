@@ -1,8 +1,7 @@
 <?php /* wp_head(); 
 <link rel="termos" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/pages-templates/termos.css" type="text/css/"> */?>
 
-<?php get_header(); ?>
-<?php $img = get_stylesheet_directory_uri() . "/assets/imgs/termos-banner.png"; ?>
+<?php $img = get_stylesheet_directory_uri() . "/assets/img/termos-banner.png"; ?>
 <?php get_template_part('/template-parts/hero/hero', null, array('titulo' => 'termos & <br>condições gerais', 'subtitulo' => 'Conheça as regras pra vender na
         Americanas Marketplace', 'img' => $img )); ?>
 

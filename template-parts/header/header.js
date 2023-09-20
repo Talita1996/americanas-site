@@ -8,7 +8,7 @@ function loadNewLogo(action) {
             document.querySelector('.custom-logo-link').innerHTML = response;
         },
         function (error) {
-            console.error(response);
+            console.error(error);
         }
     );
 }

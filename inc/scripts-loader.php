@@ -62,6 +62,10 @@ function add_scripts()
 		wp_enqueue_style('slick', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css', array(), null);
 	}
 
+	if (is_page_template('page-templates/page_privacidade.php')) {
+		wp_enqueue_style('privacidade', get_stylesheet_directory_uri() . '/assets/css/privacidade/privacidade.css', array(), null);
+	}
+
 	if (is_single()) {
 		wp_enqueue_style('single', get_stylesheet_directory_uri() . '/assets/css/single-post/single.css', array(), null);
 		wp_enqueue_script('single', get_stylesheet_directory_uri() . '/global-templates/single-post/single.js', array(), null);

@@ -8815,19 +8815,19 @@ header .dropdown-item {
 
 .cta {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #71006A;
-  --bs-btn-border-color: #71006A;
+  --bs-btn-bg: #ff0023;
+  --bs-btn-border-color: #ff0023;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #C40023;
   --bs-btn-hover-border-color: #C40023;
-  --bs-btn-focus-shadow-rgb: 134, 38, 128;
+  --bs-btn-focus-shadow-rgb: 255, 38, 68;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #5a0055;
-  --bs-btn-active-border-color: #550050;
+  --bs-btn-active-bg: #cc001c;
+  --bs-btn-active-border-color: #bf001a;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #71006A;
-  --bs-btn-disabled-border-color: #71006A;
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #ff0023;
+  --bs-btn-disabled-border-color: #ff0023;
 }
 .cta a {
   padding: 0;

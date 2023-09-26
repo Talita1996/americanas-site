@@ -18,6 +18,10 @@
                     )
                 );
                 ?>
+
+                <a class="btn btn-primary cta fw-bold mt-1 mt-xl-0" id="dropdownMenuButton1"
+                    href="https://portal.americanasmarketplace.com.br/v3/registre-se?epar=rs_blg_cte_bm_menu_blog">quero
+                    vender</a>
             </div>
         </div>
     </nav>

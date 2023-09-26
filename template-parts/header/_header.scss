@@ -187,7 +187,7 @@ header {
         color: #fff;
     }
 
-    @include button-variant($secondary, $secondary, #fff, $hover, $hover, #fff);
+    @include button-variant($primary, $primary, #fff, $hover, $hover, #fff);
 
     @include media-breakpoint-down(md) {
         order: 10;

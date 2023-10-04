@@ -1,7 +1,7 @@
 jQuery(document).ready(function ($) {
     $('#nav-tab').slick({
         dots: true,
-        infinite: false,
+        infinite: true,
         speed: 300,
         centerMode: true,
         variableWidth: true,

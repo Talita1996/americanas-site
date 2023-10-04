@@ -52,7 +52,7 @@ $tabs_titles = array(
     array(
         'title' => 'cadastro e requisitos',
         'subtitle' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        'categoria' => 'a-americanas-marketplace',
+        'categoria' => 'cadastro-e-requisitos',
         'id' => 'tab-two',
         'icon' => '<svg width="79" height="61" viewBox="0 0 79 61" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g id="computador_2" clip-path="url(#clip0_1081_8120)">
@@ -73,7 +73,7 @@ $tabs_titles = array(
     array(
         'title' => 'custos e pagamentos',
         'subtitle' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        'categoria' => 'teste',
+        'categoria' => 'custos-e-pagamentos',
         'id' => 'tab-three',
         'icon' => '<svg width="79" height="61" viewBox="0 0 79 61" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g id="finan&#195;&#167;as_2" clip-path="url(#clip0_1081_8130)">
@@ -93,7 +93,7 @@ $tabs_titles = array(
     array(
         'title' => 'vendas e produtos',
         'subtitle' => 'subtitulo',
-        'categoria' => 'a-americanas-marketplace',
+        'categoria' => 'vendas-e-produtos',
         'id' => 'tab-four',
         'icon' => '<svg width="79" height="61" viewBox="0 0 79 61" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g id="e-commerce_2">
@@ -113,7 +113,7 @@ $tabs_titles = array(
     array(
         'title' => 'entrega e logistica',
         'subtitle' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        'categoria' => 'a-americanas-marketplace',
+        'categoria' => 'entrega-e-logistica',
         'id' => 'tab-five',
         'icon' => '<svg width="79" height="61" viewBox="0 0 79 61" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g id="log&#195;&#173;stica_2" clip-path="url(#clip0_1081_5925)">
@@ -136,7 +136,7 @@ $tabs_titles = array(
     array(
         'title' => 'plataforma de vendas',
         'subtitle' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        'categoria' => 'teste',
+        'categoria' => 'plataforma-de-vendas',
         'id' => 'tab-six',
         'icon' => '<svg width="67" height="60" viewBox="0 0 67 60" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g id="tecnologia_2" clip-path="url(#clip0_1081_7598)">
@@ -173,7 +173,7 @@ $tabs_titles = array(
     array(
         'title' => 'campanhas e promoções',
         'subtitle' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        'categoria' => 'teste',
+        'categoria' => 'campanhas-e-promoções',
         'id' => 'tab-seven',
         'icon' => '<svg width="79" height="61" viewBox="0 0 79 61" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g id="publicidade_2" clip-path="url(#clip0_1081_7619)">
@@ -209,7 +209,7 @@ $tabs_titles = array(
     array(
         'title' => 'americanas empresas',
         'subtitle' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        'categoria' => 'teste',
+        'categoria' => 'americanas-empresas',
         'id' => 'tab-eight',
         'icon' => '<svg width="79" height="61" viewBox="0 0 79 61" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g id="mercado_2" clip-path="url(#clip0_1081_5843)">

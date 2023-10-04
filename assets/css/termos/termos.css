@@ -8945,6 +8945,7 @@ h2, .h2 {
   color: #71006A;
   font-size: 48px;
   line-height: 58px;
+  margin-bottom: 54px;
 }
 @media (max-width: 767.98px) {
   h2, .h2 {
@@ -8959,8 +8960,8 @@ h2, .h2 {
   border-color: #71006A;
 }
 
-#sec-1 .container {
-  max-width: 770px;
+#sec-1 {
+  margin-bottom: 160px;
 }
 
 .btn-sm {
@@ -8976,13 +8977,23 @@ h2, .h2 {
   line-height: 40px;
 }
 
-td {
+tr {
+  padding: 42px 0;
+  gap: 24px;
+}
+tr:not(:last-child) {
+  border-bottom: 1px solid #E6E6E6;
+}
+tr td {
   color: #71006A;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
   line-height: 40px;
-  margin-top: 20px;
+}
+tr td .btn, tr td .cta {
+  font-size: 18px;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=termos.css.map */

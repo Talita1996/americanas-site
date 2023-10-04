@@ -13,41 +13,41 @@
   ); ?>
 
   <section id="sec-1" class="container">
-    <h2 class="h2 text-center pb-2 pb-md-4 text-primary">clique em cada termo pra baixar e ler seu conteúdo</h2>
+    <h2 class="h2 text-center text-primary">clique em cada termo pra baixar e ler seu conteúdo</h2>
 
     <table class="table table-responsive-md m-auto w-100 ">
-      <tbody>
-        <tr>
+      <tbody class="d-block">
+        <tr class="w-100 d-flex justify-content-between flex-column flex-md-row">
           <td>termos e condições gerais - americanas marketplace</td>
-          <td><a href="#" class="btn btn-primary">Baixar</a></td>
+          <td><a href="#" class="btn btn-primary text-white">baixar</a></td>
         </tr>
-        <tr>
+        <tr class="w-100 d-flex justify-content-between flex-column flex-md-row">
           <td>termos de serviço - americanas marketplace</td>
-          <td><a href="#" class="btn btn-primary">Baixar</a></td>
+          <td><a href="#" class="btn btn-primary text-white">baixar</a></td>
         </tr>
-        <tr>
+        <tr class="w-100 d-flex justify-content-between flex-column flex-md-row">
           <td>anexo - remuneração</td>
-          <td><a href="#" class="btn btn-primary">Baixar</a></td>
+          <td><a href="#" class="btn btn-primary text-white">baixar</a></td>
         </tr>
-        <tr>
+        <tr class="w-100 d-flex justify-content-between flex-column flex-md-row">
           <td>anexo - americanas entrega</td>
-          <td><a href="#" class="btn btn-primary">Baixar</a></td>
+          <td><a href="#" class="btn btn-primary text-white">baixar</a></td>
         </tr>
-        <tr>
+        <tr class="w-100 d-flex justify-content-between flex-column flex-md-row">
           <td>anexo - acordo de nível de serviço (ANS)</td>
-          <td><a href="#" class="btn btn-primary">Baixar</a></td>
+          <td><a href="#" class="btn btn-primary text-white">baixar</a></td>
         </tr>
-        <tr>
+        <tr class="w-100 d-flex justify-content-between flex-column flex-md-row">
           <td>código de ética e conduta</td>
-          <td><a href="#" class="btn btn-primary">Baixar</a></td>
+          <td><a href="#" class="btn btn-primary text-white">baixar</a></td>
         </tr>
-        <tr>
+        <tr class="w-100 d-flex justify-content-between flex-column flex-md-row">
           <td>assinatura digital do contrato</td>
-          <td><a href="#" class="btn btn-primary">Baixar</a></td>
+          <td><a href="#" class="btn btn-primary text-white">baixar</a></td>
         </tr>
-        <tr>
+        <tr class="w-100 d-flex justify-content-between flex-column flex-md-row">
           <td>anexo - acordo de tratamento de dados pessoais</td>
-          <td><a href="#" class="btn btn-primary">Baixar</a></td>
+          <td><a href="#" class="btn btn-primary text-white">baixar</a></td>
         </tr>
       </tbody>
     </table>

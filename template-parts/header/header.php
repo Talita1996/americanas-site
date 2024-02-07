@@ -1,6 +1,6 @@
-<header class="bg-white d-md-flex align-items-md-center fixed-top">
+<header class="bg-secondary d-md-flex align-items-md-center fixed-top border-0">
     <nav class="navbar navbar-expand-lg sticky-top container">
-        <div class="container-fluid bg-white">
+        <div class="container-fluid">
 
             <?php echo the_custom_logo(); ?>
 

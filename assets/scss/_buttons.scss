@@ -3,3 +3,9 @@
 .btn-secondary {
     @include button-variant($secondary, $secondary, #fff, $hover, $hover, #fff);
 }*/
+
+$hover-background: if($primary == $color-contrast-light, shade-color($primary, $btn-hover-bg-shade-amount), tint-color($primary, $btn-hover-bg-tint-amount));
+
+.btn-primary {
+    @include button-variant($primary, $primary, #fff, $hover-background, $hover-background, #fff);
+}

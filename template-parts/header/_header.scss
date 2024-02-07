@@ -25,15 +25,6 @@ header {
         }
     }
 
-    .custom-logo {
-        height: auto;
-        width: 315px;
-
-        @include media-breakpoint-down(md) {
-            width: 97px;
-        }
-    }
-
     .dropdown-item {
         transition: all .3s ease;
     }
@@ -105,14 +96,14 @@ header {
         margin: 0 10px;
 
         @include media-breakpoint-up(md) {
-            padding: 36px 0;
+            padding: 33px 0;
         }
     }
 
     .menu-item {
 
         a {
-            color: #5B015A;
+            color: #fff;
             font-size: 17px;
             line-height: 25px;
             text-decoration: none;

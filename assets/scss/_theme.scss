@@ -36,19 +36,28 @@ $gutters: (
   5: 100px,
 );
 
-$primary: #ff0023;
-$secondary: #71006A;
+$primary: #F80032;
+$secondary: #880021;
 $pink: #FBD1F6;
 $hover: #C40023;
 
-$btn-border-radius: 0;
+$bordo-2: #61001A;
 
-$carousel-indicator-height: 15px; 
-$carousel-indicator-width: 15px;
+$branco-2: #F1F1F1;
+$branco-3: #E8E8E8;
+$branco-4: #CCCCCC;
+
+$btn-font-weight: 700;
+
+$btn-border-radius: 0;
+$btn-border-radius-lg: 0;
+
+$carousel-indicator-height: 12px; 
+$carousel-indicator-width: 12px;
 $carousel-indicator-opacity: 1;
+$carousel-indicator-active-bg: $branco-3;
 
 $gray-100: #F8F8F8;
-$gray-200: #CCCCCC;
 $gray-900: #535353;
 
 $font-family-base: 'Roboto';
@@ -104,8 +113,11 @@ $accordion-icon-transform: rotate(-90deg);
 @import "../node_modules/bootstrap/scss/accordion";
 
 @import "../../template-parts/footer/footer";
+@import "buttons";
+
 $header-height-desktop: 115px;
 $header-height-mobile: 56px;
+
 
 .wrap {
     @include media-breakpoint-up(md) {

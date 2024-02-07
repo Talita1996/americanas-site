@@ -1,0 +1,39 @@
+#hero {
+    height: 390px;
+
+    &>.row {
+        z-index: 2;
+    }
+
+    @include media-breakpoint-up(xxl) {
+        height: 560px;
+    }
+
+    @include media-breakpoint-down(md) {
+        height: 440px;
+    }
+
+    .bg-image {
+        z-index: 0;
+
+        img {
+            height: 100%;
+            object-fit: cover;
+            object-position: center bottom;
+            width: 100%;
+
+            @include media-breakpoint-down(md) {
+                object-position: center;
+            }
+        }
+    }
+
+    .content-col {
+
+        @include media-breakpoint-down(md) {
+            padding-left: 42px;
+            padding-right: 42px;
+            translate: 0 -150px;
+        }
+    }
+}

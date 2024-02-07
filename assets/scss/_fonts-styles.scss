@@ -1,49 +1,57 @@
 .h1 {
-    font-size: 4rem;
-    font-weight: bold;
-    line-height: 1.2em;
+    font-family: 'Alexandria';
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100%;
 
-    @include media-breakpoint-down(xl) {
-        font-size: 3rem;
+    @include media-breakpoint-down(md) {
+        font-size: 48px;
     }
 }
 
 .h2 {
-    font-size: 28px;
-    font-weight: bold;
-    line-height: 34px;
-
-    @include media-breakpoint-down(md) {
-        font-size: 20px;
-        line-height: 22px;
-    }
+    font-family: 'Alexandria';
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 100%;
 }
 
 .h3 {
-    font-size: 20px;
-    line-height: 23px;
-    font-weight: bold;
-    margin: 0;
+    font-family: 'Alexandria';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+} 
 
-    @include media-breakpoint-down(md) {
-        font-size: 18px;
-        line-height: 21px;
-    }
+.h4 {
+    font-family: 'Alexandria';
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 100%;
+} 
+
+.h5 {
+    font-family: 'Alexandria';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 140%;
 }
 
-.section-title {
-    font-size: 3rem;
-    line-height: 56px;
+.h6 {
+    font-family: 'Alexandria';
+    font-size: 20px;
     font-weight: 700;
-
-    @include media-breakpoint-down(xl) {
-        font-size: 2.5rem;
-        line-height: 48px;
-    }
+    line-height: 140%;
 }
 
 .p-section {
     font-size: 1.125rem;
     line-height: 1.5em;
     font-weight: 500;
+}
+
+.subtitle {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
 }

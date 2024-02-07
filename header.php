@@ -23,9 +23,10 @@ if (!defined('ABSPATH')) {
 
 <body>
 <?php
-
+get_template_part('template-parts/header/header');
+/*
 if (is_front_page()) {
     get_template_part('template-parts/header-home/header-home');
 } else {
     get_template_part('template-parts/header/header');
-}
+}*/

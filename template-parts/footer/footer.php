@@ -17,78 +17,78 @@
             </div>
 
             <div class="footer-2">
-                <a class="text-white d-block d-md-none text-decoration-none fw-bold collapse-icon position-relative"
-                    data-bs-toggle="collapse" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
-                    Quem somos
-                </a>
-                <p class="text-white d-none d-md-block fw-bold">Quem somos</p>
-                <div class="collapse" id="collapse-2">
-                    <?php dynamic_sidebar('footer-col-1'); ?>
-                </div>
+                <p class="text-white fw-bold">Quem somos</p>
+                <?php dynamic_sidebar('footer-col-1'); ?>
             </div>
             <div class="footer-3">
-                <a class="text-white d-block d-md-none text-decoration-none fw-bold collapse-icon position-relative"
-                    data-bs-toggle="collapse" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
-                    Soluções
-                </a>
-                <p class="text-white d-none d-md-block fw-bold">Soluções</p>
-                <div class="collapse" id="collapse-3">
-                    <?php dynamic_sidebar('footer-col-2'); ?>
-                </div>
+                <p class="text-white fw-bold">Soluções</p>
+                <?php dynamic_sidebar('footer-col-2'); ?>
             </div>
             <div class="footer-4">
-                <a class="text-white d-block d-md-none text-decoration-none fw-bold collapse-icon position-relative"
-                    data-bs-toggle="collapse" href="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
-                    Como vender
-                </a>
-                <p class="text-white d-none d-md-block fw-bold">Como vender</p>
-                <div class="collapse" id="collapse-4">
-                    <?php dynamic_sidebar('footer-col-3'); ?>
-                </div>
+                <p class="text-white fw-bold">Como vender</p>
+                <?php dynamic_sidebar('footer-col-3'); ?>
             </div>
 
             <div class="d-none d-md-block">
                 <p class="text-white fw-bold">Redes Sociais</p>
                 <div class="social-media d-flex gap-2">
                     <figure>
-                        <img decoding="async"
-                            src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/instagram.svg" alt="">
+                        <a href="https://www.instagram.com/americanasmarketplace/" target="_blank">
+                            <img decoding="async"
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/instagram.svg" alt="">
+                        </a>
                     </figure>
 
                     <figure>
-                        <img decoding="async" src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/youtube.svg"
-                            alt="">
+                        <a href="https://www.youtube.com/americanasmarketplace" target="_blank">
+                            <img decoding="async"
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/youtube.svg" alt="">
+                        </a>
                     </figure>
 
                     <figure>
-                        <img decoding="async" src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/facebook.svg"
-                            alt="">
+                        <a href="https://www.facebook.com/AmericanasMarketplace/" target="_blank">
+                            <img decoding="async"
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/facebook.svg" alt="">
+                        </a>
                     </figure>
 
                     <figure>
-                        <img decoding="async" src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/linkedin.svg"
-                            alt="">
+                        <a href="https://www.linkedin.com/company/americanasmarketplace/?originalSubdomain=br"
+                            target="_blank">
+                            <img decoding="async"
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/linkedin.svg" alt="">
+                        </a>
                     </figure>
 
                     <figure>
-                        <img decoding="async" src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/telegram.svg"
-                            alt="">
+                        <a href="https://t.me/americanasmarketplace" target="_blank">
+                            <img decoding="async"
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/telegram.svg" alt="">
+                        </a>
                     </figure>
                 </div>
 
                 <div class="is-layout-flex wp-container-14 wp-block-columns is-not-stacked-on-mobile">
                     <div class="is-layout-flow wp-block-column">
                         <figure class="wp-block-image size-large">
-                            <img decoding="async"
-                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/logo-google-play.svg"
-                                alt="">
+                            <a href="https://play.google.com/store/apps/details?id=com.b2wdigital.bonmarketplace&hl=pt_BR&gl=US"
+                                target="_blank">
+                                <img decoding="async"
+                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/logo-google-play.svg"
+                                    alt="">
+                            </a>
                         </figure>
                     </div>
 
                     <div class="is-layout-flow wp-block-column">
                         <figure class="wp-block-image size-large">
-                            <img decoding="async"
-                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/logo-app-store.svg" alt="">
+                            <a href="https://apps.apple.com/br/app/b2w-marketplace/id1189319909#?platform=iphone"
+                                target="_blank">
+                                <img decoding="async"
+                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/logo-app-store.svg"
+                                    alt="">
+                            </a>
                         </figure>
                     </div>
                 </div>
@@ -97,44 +97,62 @@
                 <p class="text-white fw-bold">Redes Sociais</p>
                 <div class="social-media d-flex gap-2">
                     <figure>
-                        <img decoding="async"
-                            src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/instagram.svg" alt="">
+                        <a href="https://www.instagram.com/americanasmarketplace/" target="_blank">
+                            <img decoding="async"
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/instagram.svg" alt="">
+                        </a>
                     </figure>
 
                     <figure>
-                        <img decoding="async" src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/youtube.svg"
-                            alt="">
+                        <a href="https://www.youtube.com/americanasmarketplace" target="_blank">
+                            <img decoding="async"
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/youtube.svg" alt="">
+                        </a>
                     </figure>
 
                     <figure>
-                        <img decoding="async" src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/facebook.svg"
-                            alt="">
+                        <a href="https://www.facebook.com/AmericanasMarketplace/" target="_blank">
+                            <img decoding="async"
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/facebook.svg" alt="">
+                        </a>
                     </figure>
 
                     <figure>
-                        <img decoding="async" src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/linkedin.svg"
-                            alt="">
+                        <a href="https://www.linkedin.com/company/americanasmarketplace/?originalSubdomain=br"
+                            target="_blank">
+                            <img decoding="async"
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/linkedin.svg" alt="">
+                        </a>
                     </figure>
 
                     <figure>
-                        <img decoding="async" src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/telegram.svg"
-                            alt="">
+                        <a href="https://t.me/americanasmarketplace" target="_blank">
+                            <img decoding="async"
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/telegram.svg" alt="">
+                        </a>
                     </figure>
                 </div>
 
                 <div class="is-layout-flex wp-container-14 wp-block-columns is-not-stacked-on-mobile">
                     <div class="is-layout-flow wp-block-column">
                         <figure class="wp-block-image size-large">
-                            <img decoding="async"
-                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/logo-google-play.svg"
-                                alt="">
+                            <a href="https://play.google.com/store/apps/details?id=com.b2wdigital.bonmarketplace&hl=pt_BR&gl=US"
+                                target="_blank">
+                                <img decoding="async"
+                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/logo-google-play.svg"
+                                    alt="">
+                            </a>
                         </figure>
                     </div>
 
                     <div class="is-layout-flow wp-block-column">
                         <figure class="wp-block-image size-large">
-                            <img decoding="async"
-                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/logo-app-store.svg" alt="">
+                            <a href="https://apps.apple.com/br/app/b2w-marketplace/id1189319909#?platform=iphone"
+                                target="_blank">
+                                <img decoding="async"
+                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/logo-app-store.svg"
+                                    alt="">
+                            </a>
                         </figure>
                     </div>
                 </div>

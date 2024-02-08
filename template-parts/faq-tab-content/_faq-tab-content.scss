@@ -1,17 +1,37 @@
 #accordion {
-    .accordion-button {
-        border: 1px solid #E6E6E6;
-        font-size: 2rem;
-        font-weight: 700;
-        line-height: 1.25em;
 
-        @include media-breakpoint-down(md) {
-            font-size: 1.5rem;
+    .accordion-item {
+        border: 1px solid $branco-3;
+
+        .accordion-button {
+            border: none;
+            box-shadow: none;
+            font-family: 'Alexandria';
+            font-size: 20px;
+            background-color: $branco-2;
+
+            &::after {
+                background-size: contain;
+                width: 24px;
+                height: 24px;
+            }
         }
 
-        &::after {
-            background-size: contain;
-            width: 10px;
+        .accordion-body {
+            background-color: $branco-2;
+            position: relative;
+
+            &::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                display: block;
+                background-color: $branco-3;
+                height: 1px;
+                width: 96%;
+                left: 50%;
+                translate: -50% 0;
+            }
         }
     }
 

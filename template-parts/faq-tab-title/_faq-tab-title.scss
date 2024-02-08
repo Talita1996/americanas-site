@@ -3,49 +3,62 @@
     height: 280px;
     background: #F1F1F1;
     border: 1px solid #E6E6E6;
-    padding: 72px 56px;
+    padding: 50px;
     margin: 0 15px;
+    border-radius: 16px !important;
 
     &.active {
-        color: $pink;
+        color: $white;
+        background-color: $bordo !important;
 
         svg,
         svg path {
-            fill: $pink;
-            stroke: $pink;
+            fill: $white;
+            stroke: $white;
         }
 
         .tab-subtitle {
-            color: #fff;
+            color: #fff !important;
+        }
+
+        .tab-title {
+            color: #fff !important;
         }
     }
 
     &:not(.active):hover {
+        color: #D4D4D4;
+
         svg,
         svg path {
             
-            fill: $hover;
-            stroke: $hover;
+            fill: #D4D4D4;
+            stroke: #D4D4D4;
+        }
+
+        .tab-subtitle {
+            color: #D4D4D4;
         }
     }
 
     svg {
-        height: 60px;
+        height: 40px;
         width: auto;
+        fill: $primary;
+        stroke: $primary;
+    
+        path {
+            fill: $primary;
+            stroke: $primary;
+        }
     }
 
     &>.d-flex {
         gap: 16px; 
     }
 
-    .tab-title {
-        font-size: 2rem;
-        line-height: 1.25em;
-        font-weight: 700;
-    }
-
     .tab-subtitle {
-        color: $gray-900;
+        color: #666666;
     }
 
     @include media-breakpoint-down(md) {

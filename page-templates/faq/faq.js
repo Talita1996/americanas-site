@@ -6,13 +6,12 @@ jQuery(document).ready(function ($) {
         centerMode: true,
         variableWidth: true,
         draggable: true,
-        prevArrow: '<button type="button" class="slick-prev"><svg width="17" height="27" viewBox="0 0 17 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.9514 0.333334L16.5 2.85975L5.59871 13.6674L16.5 24.4736L13.9514 27L0.5 13.6674L13.9514 0.333334Z" fill="#939393"/></svg></button>',
-        nextArrow: '<button type="button" class="slick-next"><svg width="17" height="27" viewBox="0 0 17 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.04865 0.333334L0.5 2.85975L11.4013 13.6674L0.5 24.4736L3.04865 27L16.5 13.6674L3.04865 0.333334Z" fill="#939393"/></svg></button>',
+        prevArrow: '<span class="slick-prev"><button type="button"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.80731 2.32505C7.24071 1.89165 7.94083 1.89165 8.37424 2.32505L17.149 11.0998C17.6491 11.5999 17.6491 12.4067 17.149 12.9068L8.37424 21.6749C7.94083 22.1084 7.23405 22.1084 6.80064 21.6749C6.36723 21.2415 6.36723 20.5348 6.80064 20.1013L14.902 11.9933L6.80731 3.89198C6.3739 3.45858 6.3739 2.75846 6.80731 2.32505Z" fill="#880021"/></svg></button></span>',
+        nextArrow: '<span class="slick-next"><button type="button"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.80731 2.32505C7.24071 1.89165 7.94083 1.89165 8.37424 2.32505L17.149 11.0998C17.6491 11.5999 17.6491 12.4067 17.149 12.9068L8.37424 21.6749C7.94083 22.1084 7.23405 22.1084 6.80064 21.6749C6.36723 21.2415 6.36723 20.5348 6.80064 20.1013L14.902 11.9933L6.80731 3.89198C6.3739 3.45858 6.3739 2.75846 6.80731 2.32505Z" fill="#880021"/></svg></button></span>',
         responsive: [
             {
               breakpoint: 1024,
               settings: {
-                dots: false,
                 arrows: false,
                 slidesToShow: 2,
               }

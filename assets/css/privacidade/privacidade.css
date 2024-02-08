@@ -7464,7 +7464,7 @@ progress {
 .offcanvas, .offcanvas-xxl, .offcanvas-xl, .offcanvas-lg, .offcanvas-md, .offcanvas-sm {
   --bs-offcanvas-zindex: 1045;
   --bs-offcanvas-width: 400px;
-  --bs-offcanvas-height: 30vh;
+  --bs-offcanvas-height: 303px;
   --bs-offcanvas-padding-x: 1rem;
   --bs-offcanvas-padding-y: 1rem;
   --bs-offcanvas-color: ;
@@ -8568,34 +8568,38 @@ progress {
 }
 
 footer {
-  background-color: #535353;
+  background-color: #333333;
 }
-footer .cols-wrap {
-  gap: 15px;
-  justify-content: space-between;
+@media (max-width: 767.98px) {
+  footer .row {
+    gap: 30px;
+  }
+  footer .row .col:first-child {
+    width: 164px;
+  }
 }
-footer .cols-wrap .footer-1 {
-  max-width: 300px;
+footer .row p {
+  font-family: "Alexandria";
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
 }
-footer .cols-wrap .footer-1 img {
-  max-width: 100%;
-}
-footer .cols-wrap ul {
+footer .row ul {
   list-style: none;
   padding: 0;
 }
-footer .cols-wrap ul li {
+footer .row ul li {
   margin: 5px 0;
 }
-footer .cols-wrap ul li a {
-  color: #fff;
+footer .row ul li a {
+  color: #E8E8E8;
   text-decoration: none;
   transition: all 0.3s;
 }
-footer .cols-wrap ul li a:hover {
+footer .row ul li a:hover {
   color: #F80032;
 }
-footer .cols-wrap .collapse-icon::after {
+footer .row .collapse-icon::after {
   content: " ❯";
   display: inline-block;
   font-size: 12px;
@@ -8607,7 +8611,7 @@ footer .cols-wrap .collapse-icon::after {
   top: 50%;
   translate: 0 -50%;
 }
-footer .cols-wrap .collapse-icon:hover > a:after {
+footer .row .collapse-icon:hover > a:after {
   transform: rotate(90deg);
 }
 footer .social-media img {
@@ -8658,8 +8662,7 @@ footer .wp-container-14 {
 footer .copy-footer {
   font-size: 13px;
   line-height: 20px;
-  border-top: 2px solid white;
-  padding-top: 20px 0;
+  border-top: 2px solid #E8E8E8;
 }
 
 /*
@@ -8685,7 +8688,7 @@ footer .copy-footer {
 
 @media (min-width: 768px) {
   .wrap {
-    margin-top: 115px;
+    margin-top: 107px;
   }
 }
 @media (max-width: 767.98px) {
@@ -8766,6 +8769,20 @@ header .dropdown-item {
   header #dropdownMenuButton1 {
     width: 100%;
   }
+}
+header .offcanvas img {
+  width: 165px;
+}
+header .offcanvas .navbar-nav {
+  gap: 0;
+}
+header .offcanvas .navbar-nav .menu-item {
+  border-top: 1px solid #CCCCCC;
+  padding: 9px 0;
+}
+header .offcanvas .navbar-nav .menu-item a {
+  font-weight: 700;
+  text-decoration: none;
 }
 
 #menu-header > .menu-item {
@@ -8858,7 +8875,8 @@ header .dropdown-item {
 }
 
 #hero {
-  height: 390px;
+  height: 420px;
+  border-bottom: 2px solid #F80032;
 }
 #hero::before {
   content: "";
@@ -8869,7 +8887,7 @@ header .dropdown-item {
   background: linear-gradient(270deg, rgba(0, 0, 0, 0) 36.35%, rgba(0, 0, 0, 0.7) 84.69%) no-repeat;
   z-index: 1;
 }
-#hero > .row {
+#hero .row {
   z-index: 2;
 }
 @media (min-width: 1400px) {
@@ -8884,6 +8902,7 @@ header .dropdown-item {
 }
 #hero .bg-image {
   z-index: 0;
+  left: 0;
 }
 #hero .bg-image img {
   height: 100%;
@@ -8894,27 +8913,6 @@ header .dropdown-item {
 @media (max-width: 767.98px) {
   #hero .bg-image img {
     object-position: center;
-  }
-}
-#hero .content-col p {
-  font-size: 1.25rem;
-  font-weight: 500;
-}
-@media (max-width: 767.98px) {
-  #hero .content-col {
-    padding-left: 42px;
-    padding-right: 42px;
-  }
-}
-#hero .content-col h1, #hero .content-col .h1 {
-  font-size: 4rem;
-  line-height: 1.15em;
-  color: #FBD1F6;
-}
-@media (max-width: 767.98px) {
-  #hero .content-col h1, #hero .content-col .h1 {
-    font-size: 2.5rem;
-    line-height: 1.2em;
   }
 }
 

@@ -3,7 +3,7 @@
     aria-controls="<?php echo $args['id']; ?>" aria-selected="<?php echo $args['first'] == 0 ? true : '' ?>">
     <div class="d-flex flex-column align-items-start text-start">
         <div><?php echo $args['icon']; ?></div>
-        <div class="tab-title"><?php echo $args['title']; ?></div>
+        <div class="tab-title h5 m-0"><?php echo $args['title']; ?></div>
         <div class="tab-subtitle"><?php echo $args['subtitle']; ?></div>
     </div>
 </button>

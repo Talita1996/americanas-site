@@ -88,6 +88,26 @@ header {
             width: 100%;
         }
     }
+
+    .offcanvas {
+        img {
+            width: 165px;
+        }
+
+        .navbar-nav {
+            gap: 0;
+
+            .menu-item {
+                border-top: 1px solid $branco-4;
+                padding: 9px 0;
+
+                a {
+                    font-weight: 700;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
 }
 
 #menu-header {

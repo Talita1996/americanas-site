@@ -320,6 +320,6 @@
 
 <section id="cadastro" class="bg-primary py-5 text-center">
     <h3 class="h3 text-white mb-2">vamos nessa?</h3>
-    <p class="text-white">cadastre-se e faça parte do nosso<br class="d-block d-md-none">time de parceiros</p>
+    <p class="text-white">cadastre-se e faça parte do nosso<br class="d-block d-md-none"> time de parceiros</p>
     <a href="#" class="btn btn-secondary mt-4 btn-lg">quero começar</a>
 </section>

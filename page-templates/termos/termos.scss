@@ -3,58 +3,17 @@
 
 @import "../../template-parts/hero/hero";
 
+@media (max-width: 767.98px) {
+    #hero .bg-image img {
+        object-position: 68%;
+    }
+}
+
 img {
     max-width: 100%;
     width: 100%;
     object-fit: cover;
     object-position: center;
-}
-
-p {
-    margin: 0;
-}
-
-#hero {
-    margin-top: 56px;
-    margin-bottom: 160px;
-}
-
-
-h1 {
-    font-weight: bold;
-    color: $primary;
-    font-size: 38px;
-    line-height: 46px;
-    max-width: 400px;
-
-    @include media-breakpoint-down(md) {
-        font-size: 28px;
-        line-height: 32px;
-        text-align: center;
-    }
-}
-
-
-
-p {
-    color: $primary;
-    font-weight: 500px;
-    font-size: 20px;
-    line-height: normal;
-    max-width: 400px;
-}
-
-h2 {
-    font-weight: 700;
-    color: $secondary;
-    font-size: 48px;
-    line-height: 58px;
-    margin-bottom: 54px;
-
-    @include media-breakpoint-down(md) {
-        font-size: 48px;
-        line-height: 58px;
-    }
 }
 
 .btn:hover {
@@ -93,15 +52,20 @@ tr {
     }
 
     td {
-        color: $secondary;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 40px;
+        color: $bordo;
+        font-family: 'Alexandria';
+        line-height: 140%;
+        font-size: 24px;
+        font-weight: 300;
 
-        .btn {
-            font-size: 18px;
-            font-weight: 700;
+        a {
+            width: 48px;
+            height: 44px;
+
+            img {
+                width: 24px;
+                height: 24px;
+            }
         }
     }
 }

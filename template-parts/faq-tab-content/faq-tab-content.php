@@ -35,8 +35,3 @@ $query = new WP_Query($args_query);
         <?php endwhile; ?>
     </div>
 <?php endif; ?>
-
-<?php /* echo $args['icon']; 
-echo $args['title']; 
-echo $args['subtitle']; 
-echo $args['categoria']; */?>

@@ -1,37 +1,51 @@
 @import "../../assets/scss/theme";
 @import "../../template-parts/header/header";
 
-//@import "../../assets/node_modules/bootstrap/scss/na;
-//@import "../../template-parts/hero/hero";
 @import "../../template-parts/hero/hero";
 @import "../../template-parts/faq-tab-title/faq-tab-title";
 @import "../../template-parts/faq-tab-content/faq-tab-content";
 
 #nav-tab {
+
    .slick-arrow {
-      background: none;
-      border: none;
       position: absolute;
-      top: 50%;
-      translate: 0 -50%;
-      box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.30);
-      border-radius: 30px;
-      height: 25px;
-      width: 25px;
-      padding: 0;
+      z-index: 9;
+      top: 0;
+      height: calc(100% - 52px);
       display: flex;
       align-items: center;
-      justify-content: center;
-      z-index: 9;
-      background: #fff;
+      opacity: 0;
+      transition: all .3s;
+
+      &:hover {
+         opacity: 1;
+      }
 
       &.slick-next {
          right: 0;
       }
 
-      svg {
-         height: 16px;
-         width: 10px;
+      &.slick-prev {
+         rotate: -180deg;
+      }
+
+      button {
+         border: none;
+         box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.20);
+         border-radius: 30px;
+         height: 48px;
+         width: 48px;
+         padding: 0;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         background: rgba(255, 255, 255, .5);
+
+         svg {
+            height: 16px;
+            width: 10px;
+            stroke: $bordo;
+         }
       }
    }
 
@@ -51,9 +65,14 @@
          background: #E6E6E6;
          border-radius: 15px;
          transition: all .3s;
+         border: 1px solid $branco-4;
+
+         &:not(.slick-active) {
+            background-color: transparent;
+         }
 
          &.slick-active {
-            background-color: #939393;
+            background-color: $branco-3;
          }
 
          button {

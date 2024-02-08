@@ -3,7 +3,7 @@
 function add_scripts()
 {
 	$the_theme = wp_get_theme();
-
+/*
 	echo '<style>
 			body {
 				animation: fadeInAnimation ease 2s;
@@ -18,7 +18,7 @@ function add_scripts()
 					opacity: 1;
 				}
 			}
-		</style>';
+		</style>';*/
 
 	wp_enqueue_style('fonts', get_stylesheet_directory_uri() . '/assets/css/fonts-imports.css', array(), null);
 	wp_enqueue_script('bootstrap', get_stylesheet_directory_uri() . '/assets/node_modules/bootstrap/dist/js/bootstrap.bundle.js', array(), null, true);
@@ -72,7 +72,7 @@ function add_scripts()
 	}
 
 }
-add_action('wp_head', 'add_scripts');
+add_action('wp_enqueue_scripts', 'add_scripts');
 
 function add_scripts_footer() {
 

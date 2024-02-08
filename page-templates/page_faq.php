@@ -12,63 +12,20 @@ $tabs_titles = array(
         'subtitle' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         'categoria' => 'a-americanas-marketplace',
         'id' => 'a-americanas-marketplace',
-        'icon' => '<svg width="79" height="61" viewBox="0 0 79 61" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <g id="loja-f&#195;&#173;sica_2" clip-path="url(#clip0_1081_8096)">
-    <g id="Group">
-    <g id="Group_2">
-    <path id="Vector" d="M49.8515 58.6421H45.8124V41.6042H32.887V58.6421H28.7744V37.565H49.8515V58.6421Z" fill="#FBD1F6"/>
-    </g>
-    <g id="Group_3">
-    <path id="Vector_2" d="M27.1197 1.02112L18.3711 24.7205L22.2291 26.1447L30.9778 2.44532L27.1197 1.02112Z" fill="#FBD1F6"/>
-    </g>
-    <g id="Group_4">
-    <path id="Vector_3" d="M53.3222 2.16642L49.333 3.1662L55.046 25.9618L59.0352 24.962L53.3222 2.16642Z" fill="#FBD1F6"/>
-    </g>
-    <g id="Group_5">
-    <path id="Vector_4" d="M37.4694 1.77104L37.3359 25.492L41.4485 25.5151L41.582 1.79418L37.4694 1.77104Z" fill="#FBD1F6"/>
-    </g>
-    <g id="Group_6">
-    <path id="Vector_5" d="M65.9349 30.5883H61.8223V44.6152H65.9349V30.5883Z" fill="#FBD1F6"/>
-    </g>
-    <g id="Group_7">
-    <path id="Vector_6" d="M65.935 60.625H12.6914V22.5099H63.8787V26.6226H16.804V56.5858H61.8224V50.1966H65.935V60.625Z" fill="#FBD1F6"/>
-    </g>
-    <g id="Group_8">
-    <path id="Vector_7" d="M65.9349 24.5663H61.8223V30.5883H65.9349V24.5663Z" fill="#FBD1F6"/>
-    </g>
-    <g id="Group_9">
-    <path id="Vector_8" d="M78.4192 26.6226H0.5L13.4253 0.625H65.4939L78.4192 26.6226ZM7.10955 22.5099H71.8831L62.9969 4.73761H15.9957L7.10955 22.5099Z" fill="#FBD1F6"/>
-    </g>
-    </g>
-    </g>
-    <defs>
-    <clipPath id="clip0_1081_8096">
-    <rect width="77.9192" height="60" fill="white" transform="translate(0.5 0.625)"/>
-    </clipPath>
-    </defs>
-    </svg>
-    '
+        'icon' => '<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.3012 19.9944V15.6999H6.00666V19.9944H10.3012ZM18.2906 19.9944V15.6999H13.6961V19.9944H18.2906ZM26.2919 19.9944H21.6974V15.6999H26.2919V19.9944ZM33.9933 19.9944V15.6999H29.6988V19.9944H33.9933ZM9.23359 6.99076H30.7544L33.4055 12.293H6.58247L9.23359 6.99076ZM19.994 23.9891H7.998V32.9861H19.994V23.9891ZM9.23359 2.99609C7.72209 2.99609 6.33056 3.84781 5.65878 5.20336L2.41986 11.6812C2.14395 12.233 2 12.8448 2 13.4686V19.9944C2 21.4699 2.80373 22.7655 4.00333 23.4613V32.9981C4.00333 35.2054 5.79074 36.9928 7.998 36.9928H19.994C22.2013 36.9928 23.9887 35.2054 23.9887 32.9981V24.0011H31.99V35.0014C31.99 36.1051 32.8897 37.0048 33.9933 37.0048C35.097 37.0048 35.9967 36.1051 35.9967 35.0014V23.4733C37.1963 22.7775 38 21.4939 38 20.0064V13.4806C38 12.8568 37.856 12.245 37.5801 11.6932L34.3412 5.22735C33.6694 3.8718 32.2779 3.02009 30.7664 3.02009H9.23359V2.99609Z" />
+        </svg>
+        '
     ),
     array(
         'title' => 'cadastro e requisitos',
         'subtitle' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         'categoria' => 'cadastro-e-requisitos',
         'id' => 'tab-two',
-        'icon' => '<svg width="79" height="61" viewBox="0 0 79 61" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <g id="computador_2" clip-path="url(#clip0_1081_8120)">
-        <g id="Group">
-        <path id="Vector" d="M69.776 42.3771V34.7308H66.8305V41.1473H11.8219V3.89773H63.3942H63.9297H66.8305V27.6895H69.776V0.625H63.9297H63.3942H8.87647V42.3969L0.673828 60.625H78.4338L69.776 42.3771ZM11.2596 44.42H67.4107L73.5515 57.3523H49.8897L48.0242 50.9952H31.5743L29.2447 57.3523H5.44011L11.2596 44.42ZM46.7925 57.3523H32.4223L33.5558 54.268H45.891L46.7925 57.3523Z" fill="#FF0023"/>
-        <path id="Vector_2" d="M61.9216 35.5242V30.7837V30.0002V9.10434H17.1953V35.5242H61.9216ZM20.0158 12.2382H59.1011V29.9903V30.7738V32.3804H20.0158V12.2382Z" fill="#FF0023"/>
-        </g>
-        </g>
-        <defs>
-        <clipPath id="clip0_1081_8120">
-        <rect width="77.76" height="60" fill="white" transform="translate(0.673828 0.625)"/>
-        </clipPath>
-        </defs>
-        </svg>
-        
-    '
+        'icon' => '<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M21.5755 2.8042H5.90807C3.74865 2.8042 2 4.55285 2 6.71227V34.0922C2 36.2516 3.74865 38.0003 5.90807 38.0003H33.288C35.4474 38.0003 37.1961 36.2516 37.1961 34.0922V18.4013L33.288 22.3093V34.0922H5.90807V6.71227H17.6557L21.5638 2.8042H21.5755Z" />
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M32.1499 11.7709L34.0981 9.82274L30.19 5.91467L28.2418 7.86284L32.1499 11.7709ZM25.4604 10.6325L13.7362 22.3567V26.2648H17.6443L29.3685 14.5406L25.4604 10.6325ZM20.4139 29.0345C19.6746 29.7621 18.6888 30.1846 17.6443 30.1846H13.7362C11.5768 30.1846 9.82812 28.4359 9.82812 26.2765V22.3685C9.82812 21.3357 10.2389 20.3381 10.9782 19.5988L27.4203 3.14499C28.946 1.61931 31.4223 1.61931 32.9479 3.14499L36.856 7.05306C38.3817 8.57873 38.3817 11.055 36.856 12.5807L20.4022 29.0345H20.4139Z" />
+        </svg>'
     ),
     array(
         'title' => 'custos e pagamentos',
@@ -84,7 +41,7 @@ $tabs_titles = array(
     </g>
     <defs>
     <clipPath id="clip0_1081_8130">
-    <rect width="77.819" height="60" fill="white" transform="translate(0.5 0.625)"/>
+    <rect width="77.819" height="60"  transform="translate(0.5 0.625)"/>
     </clipPath>
     </defs>
     </svg>
@@ -127,7 +84,7 @@ $tabs_titles = array(
     </g>
     <defs>
     <clipPath id="clip0_1081_5925">
-    <rect width="77.7825" height="60" fill="white" transform="translate(0.5 0.625)"/>
+    <rect width="77.7825" height="60"  transform="translate(0.5 0.625)"/>
     </clipPath>
     </defs>
     </svg>
@@ -164,7 +121,7 @@ $tabs_titles = array(
         </g>
         <defs>
         <clipPath id="clip0_1081_7598">
-        <rect width="65.8166" height="60" fill="white" transform="translate(0.457031)"/>
+        <rect width="65.8166" height="60"  transform="translate(0.457031)"/>
         </clipPath>
         </defs>
         </svg>
@@ -200,7 +157,7 @@ $tabs_titles = array(
     </g>
     <defs>
     <clipPath id="clip0_1081_7619">
-    <rect width="77.5712" height="60" fill="white" transform="translate(0.5 0.625)"/>
+    <rect width="77.5712" height="60"  transform="translate(0.5 0.625)"/>
     </clipPath>
     </defs>
     </svg>
@@ -217,7 +174,7 @@ $tabs_titles = array(
     </g>
     <defs>
     <clipPath id="clip0_1081_5843">
-    <rect width="77.5182" height="60" fill="white" transform="translate(0.5 0.625)"/>
+    <rect width="77.5182" height="60"  transform="translate(0.5 0.625)"/>
     </clipPath>
     </defs>
     </svg>

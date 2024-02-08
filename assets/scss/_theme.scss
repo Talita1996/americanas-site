@@ -41,6 +41,7 @@ $secondary: #880021;
 $pink: #FBD1F6;
 $hover: #C40023;
 
+$bordo: #880021;
 $bordo-2: #61001A;
 
 $branco-2: #F1F1F1;
@@ -63,10 +64,13 @@ $gray-900: #535353;
 $font-family-base: 'Roboto';
 
 $navbar-dark-color: #fff;
+
 $nav-tabs-border-width: 0;
 $nav-tabs-link-active-bg: $hover;
 $nav-tabs-link-active-color: $pink;
 $nav-tabs-border-radius: 0;
+
+$offcanvas-vertical-height: 303px;
 
 $accordion-button-bg: #F1F1F1;
 $accordion-button-padding-y: 30px;
@@ -115,7 +119,7 @@ $accordion-icon-transform: rotate(-90deg);
 @import "../../template-parts/footer/footer";
 @import "buttons";
 
-$header-height-desktop: 115px;
+$header-height-desktop: 107px;
 $header-height-mobile: 56px;
 
 

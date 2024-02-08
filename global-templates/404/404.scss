@@ -1,4 +1,20 @@
 @import "../../assets/scss/theme";
 @import "../../template-parts/header/header";
-@import "../../assets/scss/buttons.scss";
 @import "../../template-parts/footer/footer";
+
+
+#not-found-section {
+    
+    min-height: 50vh;
+
+    span {
+        color: $primary;
+        font-size: 13rem;
+        line-height: 13rem;
+    }
+
+    img {
+        margin-top: -40px;
+        width: 60%;
+    }
+}

@@ -8874,27 +8874,6 @@ header .offcanvas .navbar-nav .menu-item a {
   }
 }
 
-/*
-.btn-secondary {
-    @include button-variant($secondary, $secondary, #fff, $hover, $hover, #fff);
-}*/
-.btn-primary, .cta {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #F80032;
-  --bs-btn-border-color: #F80032;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #f92651;
-  --bs-btn-hover-border-color: #f92651;
-  --bs-btn-focus-shadow-rgb: 249, 38, 81;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #c60028;
-  --bs-btn-active-border-color: #ba0026;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #F80032;
-  --bs-btn-disabled-border-color: #F80032;
-}
-
 footer {
   background-color: #333333;
 }
@@ -8991,6 +8970,19 @@ footer .copy-footer {
   font-size: 13px;
   line-height: 20px;
   border-top: 2px solid #E8E8E8;
+}
+
+#not-found-section {
+  min-height: 50vh;
+}
+#not-found-section span {
+  color: #F80032;
+  font-size: 13rem;
+  line-height: 13rem;
+}
+#not-found-section img {
+  margin-top: -40px;
+  width: 60%;
 }
 
 /*# sourceMappingURL=404.css.map */

@@ -4,7 +4,7 @@
     <div class="content-col col-12 col-md-6 py-md-5 ps-xl-7">
       <h2 class="h1 align-center"><?php echo $args['titulo']; ?><br></h2>
       <p class="text-white subtitle"><?php echo $args['subtitulo']; ?></p>
-      <a class="btn btn-primary d-block d-md-none" href="#">quero vender</a>
+      <a class="btn btn-primary d-block d-md-none" href="https://portal.americanasmarketplace.com.br/v3/registre-se?epar=bo_br_st_go_ib_site_cta_quero_vender_link">quero vender</a>
     </div>
   </div>
 

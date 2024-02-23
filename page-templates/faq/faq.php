@@ -1,7 +1,7 @@
 <?php $img = get_stylesheet_directory_uri() . "/assets/img/faq-hero.jpg"; ?>
 
 <section class="wrap">
-    <?php get_template_part('/template-parts/hero/hero', null, array('titulo' => 'ficou com alguma dúvida?', 'img' => $img, 'subtitulo' => 'Aqui, nós respondemos as principais perguntas que você pode ter.')); ?>
+    <?php get_template_part('/template-parts/hero/hero', null, array('titulo' => 'ficou com alguma dúvida?', 'img' => $img, 'subtitulo' => 'Aqui, nós respondemos as principais perguntas que você pode ter sobre vender na Americanas.')); ?>
 </section>
 
 <section id="tab-options" class="container py-4 py-xxl-6 px-0">

@@ -1,4 +1,4 @@
-<header class="bg-secondary d-md-flex align-items-md-center fixed-top border-0">
+<header class="bg-secondary d-md-flex align-items-md-center fixed-top">
     <nav class="navbar navbar-expand-lg sticky-top container">
         <div class="container-fluid">
 
@@ -15,7 +15,7 @@
                 ?>
 
                 <a class="btn btn-primary cta fw-bold mt-1 mt-xl-0" id="dropdownMenuButton1"
-                    href="https://portal.americanasmarketplace.com.br/v3/registre-se?epar=rs_blg_cte_bm_menu_blog">quero
+                    href="https://portal.americanasmarketplace.com.br/v3/registre-se?epar=bo_br_st_go_ib_site_cta_quero_vender_link">quero
                     vender</a>
             </div>
 
@@ -42,7 +42,7 @@
                         ?>
 
                         <a class="btn btn-primary" id="dropdownMenuButton1"
-                            href="https://portal.americanasmarketplace.com.br/v3/registre-se?epar=rs_blg_cte_bm_menu_blog">quero
+                            href="https://portal.americanasmarketplace.com.br/v3/registre-se?epar=bo_br_st_go_ib_site_cta_quero_vender_link">quero
                             vender</a>
                     </div>
                 </div>

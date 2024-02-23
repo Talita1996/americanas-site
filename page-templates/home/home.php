@@ -55,7 +55,7 @@
         </div>
     </div>
 
-    <a href="#" class="btn btn-primary d-block d-md-none mt-5">quero vender</a>
+    <a href="https://portal.americanasmarketplace.com.br/v3/registre-se?epar=bo_br_st_go_ib_site_cta_quero_vender_link" class="btn btn-primary d-block d-md-none mt-5">quero vender</a>
 </section>
 
 <section id="video" class="container-fluid py-5 bg-primary">
@@ -63,7 +63,7 @@
     <div class="d-flex flex-column flex-md-row justify-content-center">
         <div class="img-col">
             <div data-bs-toggle="modal" data-bs-target="#video-modal" class="position-relative">
-                <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/video.jpg" class="img-fluid" />
+                <img src="https://i.ytimg.com/vi_webp/FzvVKjUb46I/maxresdefault.webp" class="img-fluid" />
                 <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/play.svg" class="position-absolute" />
             </div>
 
@@ -72,11 +72,13 @@
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title">Modal title</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <p>Modal body text goes here.</p>
+                            <iframe height="315" src="https://www.youtube.com/embed/FzvVKjUb46I?si=vqZXvVwy4ZdU3RE_"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -99,7 +101,7 @@
                             src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/megafone.svg" />
                         <h5 class="h5 text-secondary ms-md-3">público diverso</h5>
                     </div>
-                    <p class="text-secondary m-0 pt-2">Alcance mais clientes, visibilidade, vendas e oportunidades.</p>
+                    <p class="text-secondary m-0 pt-md-2">Alcance mais clientes, visibilidade, vendas e oportunidades.</p>
                 </div>
             </div>
 
@@ -110,7 +112,7 @@
                             src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/check.svg" />
                         <h5 class="h5 text-secondary ms-md-3">soluções completas</h5>
                     </div>
-                    <p class="text-secondary m-0 pt-2">Logística, publicidade, educação e tecnologia pra você chegar
+                    <p class="text-secondary m-0 pt-md-2">Logística, publicidade, educação e tecnologia pra você chegar
                         mais longe.</p>
                 </div>
             </div>
@@ -122,7 +124,7 @@
                             src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/dolar.svg" />
                         <h5 class="h5 text-secondary ms-md-3">pagamentos semanais</h5>
                     </div>
-                    <p class="text-secondary m-0 pt-2">Receba por suas vendas toda semana e otimize seu fluxo de caixa.
+                    <p class="text-secondary m-0 pt-md-2">Receba por suas vendas toda semana e otimize seu fluxo de caixa.
                         Saiba mais.</p>
                 </div>
             </div>
@@ -131,10 +133,10 @@
                 <div class="card p-4 h-100">
                     <div class="d-flex flex-column flex-md-row">
                         <img alt="icone de megafone"
-                            src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/megafone.svg" />
+                            src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/pessoa.svg" />
                         <h5 class="h5 text-secondary ms-md-3">equipe especializada</h5>
                     </div>
-                    <p class="text-secondary m-0 pt-2">Conte com a gente ao longo da sua jornada de venda, do cadastro à
+                    <p class="text-secondary m-0 pt-md-2">Conte com a gente ao longo da sua jornada de venda, do cadastro à
                         operação.</p>
                 </div>
             </div>
@@ -145,7 +147,7 @@
 <section id="quero-ser-parceiro" class="py-5 d-flex d-md-none flex-column align-items-center">
     <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/check-mobile.png" width="92" height="92" />
     <h2 class="h3 text-white text-center my-3">quero ser<br>parceiro</h2>
-    <a href="#" class="btn btn-primary">começar</a>
+    <a href="https://portal.americanasmarketplace.com.br/v3/registre-se?epar=bo_br_st_go_ib_site_cta_quero_vender_link" class="btn btn-primary">começar</a>
 </section>
 
 <section id="depoimento" class="container-fluid py-6 px-0 overflow-hidden bg-secondary">
@@ -165,7 +167,7 @@
                         credibilidade de mercado que você ganha, pelo fortalecimento da sua marca. é uma porta pra um
                         mundo de possibilidades."</p>
                     <div class="d-flex align-items-md-center">
-                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/foto_bloco6.jpg" />
+                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/foto_bloco6.png" />
                         <div>
                             <p class="text-white h6">Natália Moraes</p>
                             <p class="subtitle">dona da Loja Vitrine dos Importados e parceira da Americanas Marketplace
@@ -234,36 +236,38 @@
             <div class="tab-content" id="vender-tab-content">
                 <div class="tab-pane fade show active text-white" id="requisitos-tab-pane" role="tabpanel"
                     aria-labelledby="home-tab" tabindex="0">
-                    <p>Cadastrar a sua loja pra vender em uma das maiores vitrines
-                        online do Brasil é fácil. Aqui, você pode entregar seus produtos pra clientes de todo o Brasil e
-                        conquistar a visibilidade que você
-                        precisa pra ter sucesso no seu negócio.</p>
-                    <p>Pra garantir a segurança de todos os nossos parceiros e clientes da
-                        plataforma, estabelecemos alguns requisitos básicos pra cadastro, como CNPJ e emissão de nota
-                        fiscal.</p>
-                    <p>Confira todos detalhes a seguir!</p>
+                    <p>Cadastrar a sua loja pra vender em uma das maiores vitrines online do Brasil é fácil. Aqui, você
+                        pode entregar seus produtos pra clientes de todo o Brasil e conquistar a visibilidade que você
+                        precisa pra ter sucesso no seu negócio. </p>
+                    <p>Pra garantir a segurança de todos os nossos parceiros e clientes da plataforma, estabelecemos
+                        alguns requisitos básicos pra cadastro, como CNPJ e emissão de nota fiscal.</p>
+                    <p>Confira todos os detalhes a seguir!</p>
                 </div>
                 <div class="tab-pane fade text-white" id="doc-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
                     tabindex="0">
-                    <p>Cadastrar a sua loja pra vender em uma das maiores vitrines
-                        online do Brasil é fácil. Aqui, você pode entregar seus produtos pra clientes de todo o Brasil e
-                        conquistar a visibilidade que você
-                        precisa pra ter sucesso no seu negócio.</p>
-                    <p>Pra garantir a segurança de todos os nossos parceiros e clientes da
-                        plataforma, estabelecemos alguns requisitos básicos pra cadastro, como CNPJ e emissão de nota
-                        fiscal.</p>
-                    <p>Confira todos detalhes a seguir!</p>
+                    <p>Pra vender na Americanas, é preciso ter as seguintes documentações: </p>
+                    <ul>
+                        <li>CNPJ (MEI ou superior) ativo e sem restrições</li>
+                        <li>CNAE de varejista</li>
+                        <li>Inscrição no Sintegra (exceto para MEI)</li>
+                        <li>ME ou superior: emitir nota fiscal eletrônica</li>
+                        <li>MEI: emitir nota fiscal eletrônica ou avulsa</li>
+                        <li>Conta corrente vinculada ao CNPJ</li>
+                        <li>Capital social igual ou superior a R$ 1000</li>
+                    </ul>
                 </div>
                 <div class="tab-pane fade text-white" id="steps-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
                     tabindex="0">
-                    <p>Cadastrar a sua loja pra vender em uma das maiores vitrines
-                        online do Brasil é fácil. Aqui, você pode entregar seus produtos pra clientes de todo o Brasil e
-                        conquistar a visibilidade que você
-                        precisa pra ter sucesso no seu negócio.</p>
-                    <p>Pra garantir a segurança de todos os nossos parceiros e clientes da
-                        plataforma, estabelecemos alguns requisitos básicos pra cadastro, como CNPJ e emissão de nota
-                        fiscal.</p>
-                    <p>Confira todos detalhes a seguir!</p>
+                    <p>Com todos os documentos necessários, você pode cadastrar a sua loja pra vender em nosso
+                        marketplace. Basta seguir esses passos: </p>
+                    <ol>
+                        <li>Preencha o <a
+                                href="https://portal.americanasmarketplace.com.br/v3/registre-se?lp=vendendo_em_marketplaces&variant=c&button=2_quero_comecar"
+                                target="_blank">formulário de cadastro</a> com os dados essenciais do seu negócio.</li>
+                        <li>Com o cadastro aprovado, você já pode acessar a nossa plataforma de vendas e configurar a
+                            sua loja.</li>
+                        <li>É hora de vender! Acompanhe os seus pedidos e receba pelas suas vendas.</li>
+                    </ol>
                 </div>
             </div>
         </div>
@@ -282,7 +286,7 @@
         </div>
         <div class="carousel-inner d-flex">
             <div class="carousel-item active">
-                <div class="card p-4">
+                <div class="card">
                     <h5 class="text-primary h5 pb-2">requisitos</h5>
                     <p>Cadastrar a sua loja pra vender em uma das maiores vitrines online do Brasil é fácil. Aqui, você
                         pode entregar seus produtos pra clientes de todo o Brasil e conquistar a visibilidade que você
@@ -293,7 +297,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="card p-4">
+                <div class="card">
                     <h5 class="text-primary h5 pb-2">requisitos</h5>
                     <p>Cadastrar a sua loja pra vender em uma das maiores vitrines online do Brasil é fácil. Aqui, você
                         pode entregar seus produtos pra clientes de todo o Brasil e conquistar a visibilidade que você
@@ -304,7 +308,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="card p-4">
+                <div class="card">
                     <h5 class="text-primary h5 pb-2">requisitos</h5>
                     <p>Cadastrar a sua loja pra vender em uma das maiores vitrines online do Brasil é fácil. Aqui, você
                         pode entregar seus produtos pra clientes de todo o Brasil e conquistar a visibilidade que você
@@ -321,5 +325,5 @@
 <section id="cadastro" class="bg-primary py-5 text-center">
     <h3 class="h3 text-white mb-2">vamos nessa?</h3>
     <p class="text-white">cadastre-se e faça parte do nosso<br class="d-block d-md-none"> time de parceiros</p>
-    <a href="#" class="btn btn-secondary mt-4 btn-lg">quero começar</a>
+    <a href="https://portal.americanasmarketplace.com.br/v3/registre-se?epar=bo_br_st_go_ib_site_cta_quero_vender_link" class="btn btn-secondary mt-4 btn-lg">quero começar</a>
 </section>
